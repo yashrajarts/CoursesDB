@@ -18,6 +18,10 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
+
+- task: MavenAuthenticate@0
+  inputs:
+    artifactsFeeds: 'M10891710598'
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
