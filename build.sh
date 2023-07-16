@@ -1,1 +1,1 @@
-mvn -f app/pom.xml clean package
+mvn -f demo-1/pom.xml clean package
