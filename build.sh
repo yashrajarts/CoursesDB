@@ -1,1 +1,0 @@
-mvn -f demo-1/pom.xml clean package
